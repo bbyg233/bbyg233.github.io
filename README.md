@@ -4,7 +4,7 @@ Welcome to my personal academic website repository! This site is built with **Hu
 
 ## 🌟 About Me
 - **Affiliation:** School of Biological Science and Medical Engineering, Southeast University (SEU).
-- **Research Focus:** Deep Learning, Medical Image Segmentation, and Perioperative Organ Protection.
+- **Research Focus:** Deep Learning, Medical Image Segmentation, and etc..
 - **Goal:** Leveraging AI to push the boundaries of medical engineering and clinical practice.
 
 ## 🛠️ Tech Stack
