@@ -1,0 +1,23 @@
+languageCode = "en-AU"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Ming Liu"
+copyright = "&copy; 2026 Ming Liu"
+
+[author]
+  name = "Ming Liu"
+
+[params]
+  dateFormat = "2 January 2006"
+
+[params.author]
+  name = "Ming Liu"
+  image = "img/author1.png"
+  headline = "School of Biological Science and Medical Engineering, Southeast University"
+  bio = "Focusing on Deep Learning and Medical Image Segmentation."
+  links = [
+  { email = "mailto:220252564@seu.edu.cn" },
+  { github = "https://github.com/bbyg233" }
+]
