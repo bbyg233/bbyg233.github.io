@@ -9,7 +9,7 @@ copyright = "&copy; 2026 Ming Liu"
 [params]
   dateFormat = "2 January 2006"
 
-[author]
+[params.author]
   name = "Ming Liu"
   image = "img/author1.png"
   headline = "School of Biological Science and Medical Engineering, Southeast University"
