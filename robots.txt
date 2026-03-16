@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bbyg233.github.io/sitemap.xml
