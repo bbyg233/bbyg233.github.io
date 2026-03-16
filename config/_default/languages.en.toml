@@ -6,9 +6,6 @@ weight = 1
 title = "Ming Liu"
 copyright = "&copy; 2026 Ming Liu"
 
-[author]
-  name = "Ming Liu"
-
 [params]
   dateFormat = "2 January 2006"
 
