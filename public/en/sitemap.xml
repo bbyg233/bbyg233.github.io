@@ -4,64 +4,64 @@
   
     
       <url>
-            <loc>http://localhost:1313/about/</loc>
+            <loc>https://bbyg233.github.io/about/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="zh"
-              href="http://localhost:1313/zh/about/"
+              href="https://bbyg233.github.io/zh/about/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/about/"
+              href="https://bbyg233.github.io/about/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/</loc>
+            <loc>https://bbyg233.github.io/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="zh"
-              href="http://localhost:1313/zh/"
+              href="https://bbyg233.github.io/zh/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/"
+              href="https://bbyg233.github.io/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/publications/</loc>
+            <loc>https://bbyg233.github.io/publications/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="zh"
-              href="http://localhost:1313/zh/publications/"
+              href="https://bbyg233.github.io/zh/publications/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/publications/"
+              href="https://bbyg233.github.io/publications/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/research/</loc>
+            <loc>https://bbyg233.github.io/research/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="zh"
-              href="http://localhost:1313/zh/research/"
+              href="https://bbyg233.github.io/zh/research/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/research/"
+              href="https://bbyg233.github.io/research/"
               />
           </url>
     
