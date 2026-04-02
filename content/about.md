@@ -6,11 +6,12 @@ showAuthor: false
 
 I am Ming Liu, currently pursuing my studies at the School of Biological Science and Medical Engineering, Southeast University.
 
-My core interest lies at the intersection of **Biomedical Engineering** and **Artificial Intelligence**. I am passionate about leveraging deep learning algorithms and advanced computational tools to solve complex challenges in medical imaging and analysis.
+My core research interest lies at the intersection of **Biomedical Engineering** and **Artificial Intelligence**. I am passionate about leveraging deep learning algorithms and advanced computational tools to solve complex challenges in medical imaging analysis and clinical practice.
 
 ## Education
 
-* **2021 - Present** B.S. / M.S. in Biomedical Engineering, Southeast University
+* **2025 - Present** M.S. in Biomedical Engineering, Southeast University, Nanjing
+* **2021 - 2025** B.S. in Biomedical Engineering, South-Central Minzu University, Wuhan
 
 ## Get in Touch
 

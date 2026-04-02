@@ -11,11 +11,11 @@ copyright = "&copy; 2026 Ming Liu"
   dateFormat = "2006年1月2日"
 
 [params.author]
-  name = "Ming Liu"
+  name = "刘铭"
   image = "img/author1.png"
   headline = "东南大学 生物科学与医学工程学院"
-  bio = "专注于深度学习与医学图像分割。"
+  bio = "聚焦人工智能与生物医学工程的交叉领域。"
   links = [
-    { email = "mailto:220252564@seu.edu.cn" },
+    { email = "javascript:alert('220252564@seu.edu.cn')" },
     { github = "https://github.com/bbyg233" }
   ]

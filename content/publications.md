@@ -4,13 +4,19 @@ showDate: false
 showAuthor: false
 ---
 
-*(以下是标准学术列表模板，请将括号内的内容替换为你实际的成果)*
+## Selected Works
 
-1. **Liu, M.**, [Co-author Name], et al. (2026). [Your Paper/Report Title Related to Deep Learning and Image Segmentation]. *[Target Journal, Conference, or Institutional Archive]*.
+### Theses
 
-2. **Liu, M.** (2026). *Research Report: Optimizing Neural Networks for Medical Image Analysis*. School of Biological Science and Medical Engineering, Southeast University.
+**Liu, M.** (2025). *Echocardiogram Segmentation via U-Net and ResT Transformer* [Undergraduate Thesis]. South-Central Minzu University.
 
----
-**Selected Projects**
+## Awards
 
-* **Graduation Project: Advanced Image Segmentation Algorithms** Focusing on the implementation and optimization of deep learning models for high-accuracy medical image processing.
+| Year | Award | Organizer |
+|------|-------|-----------|
+| 2024 | Chinese Society of Biomedical Engineering Innovation Design Competition (Undergraduate Group) — National Third Prize | Chinese Society of Biomedical Engineering |
+| 2025 | National Graduate Electronics Design Competition, FPGA Track — National Third Prize | Ministry of Education, China |
+
+## Upcoming
+
+Manuscripts in preparation on deep learning for medical image segmentation and EEG-based brain-computer interfaces will be published here as they are accepted.
