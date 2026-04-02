@@ -2,16 +2,73 @@
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
     {{ range $links := . }}
       {{ range $name, $url := $links }}
-        <a
-          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
-          style="will-change:transform;"
-          href="{{ $url | safeURL }}"
-          target="_blank"
-          aria-label="{{ $name | title }}"
-          rel="me noopener noreferrer"
-          >{{ partial "icon.html" $name }}</a
-        >
+        {{ if eq $name "email" }}
+          <a
+            href="#"
+            id="email-trigger"
+            class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400 cursor-pointer"
+            style="will-change:transform;"
+            rel="noopener noreferrer"
+            >{{ partial "icon.html" $name }}</a
+          >
+        {{ else }}
+          <a
+            class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+            style="will-change:transform;"
+            href="{{ $url | safeURL }}"
+            target="_blank"
+            aria-label="{{ $name | title }}"
+            rel="me noopener noreferrer"
+            >{{ partial "icon.html" $name }}</a
+          >
+        {{ end }}
       {{ end }}
     {{ end }}
   </div>
+
+  <!-- Email Modal -->
+  <div id="email-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4" style="display:none;">
+    <div class="fixed inset-0 bg-black/30" onclick="closeEmailModal()"></div>
+    <div class="relative rounded-lg bg-neutral-100 dark:bg-neutral-800 shadow-xl w-64">
+      <button onclick="closeEmailModal()" style="position:absolute;top:8px;right:8px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:50%;border:none;cursor:pointer;background:#e5e7eb;font-size:0.9rem;line-height:1;box-shadow:0 2px 4px rgba(0,0,0,0.15);" aria-label="Close">&times;</button>
+      <div class="text-center p-6">
+        <div class="text-sm text-neutral-500 dark:text-neutral-400 mb-3">Email</div>
+        <div class="text-lg font-semibold text-neutral-800 dark:text-neutral-200 mb-4" id="email-text">220252564@seu.edu.cn</div>
+        <button class="px-4 py-2 rounded bg-primary-500 text-white hover:bg-primary-600 transition-colors cursor-pointer" onclick="copyEmail()" id="copy-btn">Copy</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openEmailModal() {
+      var modal = document.getElementById('email-modal');
+      modal.style.display = 'flex';
+    }
+    function closeEmailModal() {
+      var modal = document.getElementById('email-modal');
+      modal.style.display = 'none';
+    }
+    function copyEmail() {
+      var email = document.getElementById('email-text').textContent;
+      navigator.clipboard.writeText(email).then(function() {
+        var btn = document.getElementById('copy-btn');
+        btn.textContent = 'Copied!';
+        setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
+      });
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+      var trigger = document.getElementById('email-trigger');
+      if (trigger) {
+        trigger.addEventListener('click', function(e) {
+          e.preventDefault();
+          openEmailModal();
+        });
+      }
+    });
+    document.getElementById('email-modal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeEmailModal();
+      }
+    });
+  </script>
 {{ end }}
