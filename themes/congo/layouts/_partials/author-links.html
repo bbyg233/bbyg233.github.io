@@ -1,3 +1,4 @@
+{{ $isZH := eq site.Language.LanguageName "简体中文" }}
 {{ with site.Language.Params.Author.links }}
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
     {{ range $links := . }}
@@ -37,8 +38,8 @@
         <div class="text-sm text-neutral-500 dark:text-neutral-400 mb-3">Email</div>
         <div class="text-lg font-semibold text-neutral-800 dark:text-neutral-200 mb-4" id="email-text">220252564@seu.edu.cn</div>
         <div class="flex gap-3 justify-center">
-          <button class="px-4 py-2 rounded bg-primary-500 text-white hover:bg-primary-600 transition-colors cursor-pointer text-sm" onclick="copyEmail()" id="copy-btn">复制</button>
-          <a href="mailto:220252564@seu.edu.cn" onclick="closeEmailModal()" class="px-4 py-2 rounded border border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white transition-colors cursor-pointer text-sm no-underline">发送邮件</a>
+          <button class="px-4 py-2 rounded bg-primary-500 text-white hover:bg-primary-600 transition-colors cursor-pointer text-sm" onclick="copyEmail()" id="copy-btn">{{ if $isZH }}复制{{ else }}Copy{{ end }}</button>
+          <a href="mailto:220252564@seu.edu.cn" onclick="closeEmailModal()" class="px-4 py-2 rounded border border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white transition-colors cursor-pointer text-sm no-underline">{{ if $isZH }}发送邮件{{ else }}Send Email{{ end }}</a>
         </div>
       </div>
     </div>
